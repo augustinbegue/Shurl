@@ -1,0 +1,29 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Shortener input */
+
+.shortener_form {
+
+}
+
+.shortener_form > .shortener_input {
+
+}
+
+.shortener_form > .shortener_input > input {
+  outline: none;
+}
+
+.shortener_form > .shortener_input > .shortener_input_button {
+
+}

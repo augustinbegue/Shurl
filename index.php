@@ -16,10 +16,12 @@ if (!empty($_GET['redirectionToken'])) {
     ?>
   </head>
   <body>
-    <?php
-    require '_include\shortener\input.php'; /* Shortener Input */
-    require '_include\shortener\shortener.php'; /* Shortener post */
-    ?>
+    <section>
+      <?php
+      require '_include\shortener\input.php'; /* Shortener Input */
+      require '_include\shortener\shortener.php'; /* Shortener post */
+      ?>
+    </section>
   </body>
 </html>
 <?php
